@@ -1,0 +1,13 @@
+:root{
+    --cor-de-fundo:#FFFFFF;
+    --cor-de-fundo-section:#EBECEE;
+    --cor-titulos:#002F52;
+    --cor--botoes:#EB9B00;
+    --fonte-geral: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: var(--cor-de-fundo);
+}
