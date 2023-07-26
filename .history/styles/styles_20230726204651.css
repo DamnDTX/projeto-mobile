@@ -4,7 +4,7 @@
 
 :root{
     --cor-de-fundo-branco:#FFFFFF;
-    --cor-de-fundo: #C4C4C4;
+    --cor-de-fundo: rgb(232, 220, 220);
     --cor-titulos:#002F52;
     --cor--botoes:#EB9B00;
     --fonte-geral: 'Poppins', sans-serif;

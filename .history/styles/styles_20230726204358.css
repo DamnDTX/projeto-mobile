@@ -4,7 +4,7 @@
 
 :root{
     --cor-de-fundo-branco:#FFFFFF;
-    --cor-de-fundo: #C4C4C4;
+    --cor-de-fundo: gray;
     --cor-titulos:#002F52;
     --cor--botoes:#EB9B00;
     --fonte-geral: 'Poppins', sans-serif;
@@ -18,5 +18,5 @@ body{
 }
 
 .cabecalho{
-    background-color: white;
+    background-color: var(--cor-de-fundo-section);
 }

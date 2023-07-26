@@ -1,10 +1,8 @@
 @import url(../styles/header.css);
-/* Usamos o '@import" aqui pelo motivo de ser mais rádio o carregamento do arquivo, além de deixar o index.html com menos códigos*/
-
 
 :root{
-    --cor-de-fundo-branco:#FFFFFF;
-    --cor-de-fundo: #C4C4C4;
+    --cor-de-fundo-section:#FFFFFF;
+    --cor-de-fundo:#EBECEE;
     --cor-titulos:#002F52;
     --cor--botoes:#EB9B00;
     --fonte-geral: 'Poppins', sans-serif;
@@ -18,5 +16,5 @@ body{
 }
 
 .cabecalho{
-    background-color: white;
+    background-color: var(--cor-de-fundo-section);
 }
