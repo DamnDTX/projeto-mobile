@@ -39,8 +39,6 @@
 .lista-menu{
     display: none;
     position: absolute;
-    width: 55vw;
-
 }
 
 .container__botao:checked~.lista-menu {
@@ -51,6 +49,7 @@
     color: var(--cor-titulos);
     font-size: var(--tamanho-fonte-subtitulo);
     font-family: var(--fonte-geral);
+    text-transform: uppercase;
 }
 
 .lista-menu__link{

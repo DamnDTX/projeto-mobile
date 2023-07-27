@@ -1,7 +1,7 @@
 :root{
     --cor-de-fundo-branco:#FFFFFF;
     --cor-de-fundo: #C4C4C4;
-    --cor-titulos:#3c464e;
+    --cor-titulos:#002F52;
     --cor-botoes:#EB9B00;
     --fonte-geral: 'Poppins', sans-serif;
     --tamanho-fonte-titulo:2rem;
@@ -39,8 +39,6 @@
 .lista-menu{
     display: none;
     position: absolute;
-    width: 55vw;
-
 }
 
 .container__botao:checked~.lista-menu {
@@ -58,11 +56,9 @@
     font-size: var(--tamanho-fonte-geral);
     font-family: var(--fonte-geral);
     text-decoration: none;
-    text-transform: uppercase;
 }
 
-.lista-menu__titulo,
-.lista-menu__item{
+.lista-menu, .lista-menu__item{
     background-color: var(--cor-de-fundo-branco);
-    padding: 1rem;
+    padding: 1em;
 }
