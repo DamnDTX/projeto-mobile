@@ -1,0 +1,24 @@
+.cabecalho__menu-hamburguer {
+    width:40px;
+    height:40px;
+    background-image: url(../img/Menu.svg);
+    display: inline-block;
+}   
+
+/* inline-block pois assim permite ajustes de altura e largura, lembrando que com o display=block não conseguimos fazer tais ajustes */
+
+.cabecalho{
+    background-color: var(--cor-de-fundo-branco);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 40px;
+}
+
+/*APÓS ESTA LINHA ACIMA OS ELEMENTOS FICARAM Á ESQUERDA, MAS ISTO ACONTECEU POIS COLOCAMOS-O EM OUTRO ARQUIVO CSS, ESTE ESQUEMA É MUITO BOM QUANDO PRECISAMOS FAZER UM MENU DESSE JEITO SEM USAR JAVASCRIPT, CLARO, O GRANDE SEGREDO FOI O 'justify-content'*/
+
+.container__imagem{
+    padding: 1rem;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}

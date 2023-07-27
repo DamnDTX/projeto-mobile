@@ -2,11 +2,10 @@
     --cor-de-fundo-branco:#FFFFFF;
     --cor-de-fundo: #C4C4C4;
     --cor-titulos:#002F52;
-    --cor-botoes:#EB9B00;
+    --cor--botoes:#EB9B00;
     --fonte-geral: 'Poppins', sans-serif;
     --tamanho-fonte-titulo:2rem;
-    --tamanho-fonte-subtitulo:1.25rem;
-    --tamanho-fonte-geral:1rem;
+    --tamanho--fonte--geral:1.5rem;
 }
 
 
@@ -46,18 +45,7 @@
 }
 
 .lista-menu__titulo{
-    color: var(--cor-titulos);
-    font-size: var(--tamanho-fonte-subtitulo);
+    color: var(--cor--botoes);
+    font-size: var(--tamanho-fonte-titulo);
     font-family: var(--fonte-geral);
-}
-
-.lista-menu__link{
-    color: var(--cor-botoes);
-    font-size: var(--tamanho-fonte-geral);
-    font-family: var(--fonte-geral);
-    text-decoration: none;
-}
-
-.lista-menu{
-    background-color: var(--cor-de-fundo-branco);
 }

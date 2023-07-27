@@ -51,13 +51,7 @@
     font-family: var(--fonte-geral);
 }
 
-.lista-menu__link{
+.lista-menu__item{
     color: var(--cor-botoes);
     font-size: var(--tamanho-fonte-geral);
-    font-family: var(--fonte-geral);
-    text-decoration: none;
-}
-
-.lista-menu{
-    background-color: var(--cor-de-fundo-branco);
 }

@@ -60,4 +60,5 @@
 
 .lista-menu{
     background-color: var(--cor-de-fundo-branco);
+    gap: 5%;
 }

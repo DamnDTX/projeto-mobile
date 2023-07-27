@@ -1,20 +1,10 @@
-:root{
-    --cor-de-fundo-branco:#FFFFFF;
-    --cor-de-fundo: #C4C4C4;
-    --cor-titulos:#002F52;
-    --cor-botoes:#EB9B00;
-    --fonte-geral: 'Poppins', sans-serif;
-    --tamanho-fonte-titulo:2rem;
-    --tamanho-fonte-subtitulo:1.25rem;
-    --tamanho-fonte-geral:1rem;
-}
-
-
 .cabecalho__menu-hamburguer {
     width:40px;
     height:40px;
     background-image: url(../img/Menu.svg);
     display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
 }   
 
 /* inline-block pois assim permite ajustes de altura e largura, lembrando que com o display=block não conseguimos fazer tais ajustes */
@@ -24,40 +14,19 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    position: relative;
 }
 
 /*APÓS ESTA LINHA ACIMA OS ELEMENTOS FICARAM Á ESQUERDA, MAS ISTO ACONTECEU POIS COLOCAMOS-O EM OUTRO ARQUIVO CSS, ESTE ESQUEMA É MUITO BOM QUANDO PRECISAMOS FAZER UM MENU DESSE JEITO SEM USAR JAVASCRIPT, CLARO, O GRANDE SEGREDO FOI O 'justify-content'*/
 
 .container__imagem{
     padding: 1rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    top: 100%;
+   
 }
 
 .lista-menu{
     display: none;
-    position: absolute;
 }
 
 .container__botao:checked~.lista-menu {
     display: block;
-}
-
-.lista-menu__titulo{
-    color: var(--cor-titulos);
-    font-size: var(--tamanho-fonte-subtitulo);
-    font-family: var(--fonte-geral);
-}
-
-.lista-menu__link{
-    color: var(--cor-botoes);
-    font-size: var(--tamanho-fonte-geral);
-    font-family: var(--fonte-geral);
-    text-decoration: none;
-}
-
-.lista-menu{
-    background-color: var(--cor-de-fundo-branco);
 }
