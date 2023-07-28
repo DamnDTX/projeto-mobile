@@ -52,7 +52,7 @@
 
 .lista-menu__titulo{
     color: var(--cor-titulos);
-    font-size: var(--tamanho-fonte-geral);
+    font-size: var(--tamanho-fonte-subtitulo);
     font-family: var(--fonte-geral);
     font-weight: var(--peso-fonte-titulo);
 }

@@ -5,7 +5,7 @@
     --cor-botoes:#EB9B00;
     --fonte-geral: 'Poppins', sans-serif;
     --tamanho-fonte-titulo:2rem;
-    --tamanho-fonte-subtitulo:1.3rem;
+    --tamanho-fonte-subtitulo:1.25rem;
     --tamanho-fonte-geral:1rem;
     --peso-fonte-geral:400;
     --peso-fonte-titulo:700;
@@ -52,9 +52,8 @@
 
 .lista-menu__titulo{
     color: var(--cor-titulos);
-    font-size: var(--tamanho-fonte-geral);
+    font-size: var(--tamanho-fonte-subtitulo);
     font-family: var(--fonte-geral);
-    font-weight: var(--peso-fonte-titulo);
 }
 
 .lista-menu__link{
@@ -63,7 +62,6 @@
     font-family: var(--fonte-geral);
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: var(--peso-fonte-geral);
 }
 
 .lista-menu__titulo,

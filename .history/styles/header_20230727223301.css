@@ -5,7 +5,7 @@
     --cor-botoes:#EB9B00;
     --fonte-geral: 'Poppins', sans-serif;
     --tamanho-fonte-titulo:2rem;
-    --tamanho-fonte-subtitulo:1.3rem;
+    --tamanho-fonte-subtitulo:1.5rem;
     --tamanho-fonte-geral:1rem;
     --peso-fonte-geral:400;
     --peso-fonte-titulo:700;
@@ -54,7 +54,7 @@
     color: var(--cor-titulos);
     font-size: var(--tamanho-fonte-geral);
     font-family: var(--fonte-geral);
-    font-weight: var(--peso-fonte-titulo);
+    font-weight: var(--peso-fonte-subtitulo);
 }
 
 .lista-menu__link{
