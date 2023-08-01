@@ -32,7 +32,7 @@
     margin: 0.5rem;
 }
 
-.card_imagem{
+.card__imagem{
     display: flex;
     justify-content: space-between;
 }

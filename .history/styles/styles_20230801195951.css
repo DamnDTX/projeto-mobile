@@ -16,7 +16,6 @@
 
 body{
     background-color: var(--cor-de-fundo);
-    height: 100vh;
 }
 
 .cabecalho{
@@ -30,3 +29,6 @@ body{
     display: none;
 }
 
+.descricao__imagem{
+    display: flex;
+}

@@ -16,7 +16,7 @@
 
 body{
     background-color: var(--cor-de-fundo);
-    height: 100vh;
+    height: 100%;
 }
 
 .cabecalho{
