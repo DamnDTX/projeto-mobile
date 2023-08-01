@@ -1,0 +1,19 @@
+:root{
+    --cor-de-fundo-branco:#FFFFFF;
+    --cor-de-fundo: #C4C4C4;
+    --cor-titulos:#002F52;
+    --cor--botoes:#EB9B00;
+    --fonte-geral: 'Poppins', sans-serif;
+    --tamanho-fonte-titulo:2rem;
+    --tamanho-fonte-subtitulo:1.35rem;
+
+}
+
+.carrossel__lancamentos {
+    font-family: var(--fonte-geral);
+    color: var(--cor-titulos);
+    font-size: var(--tamanho-fonte-subtitulo);
+    background-color: var(--cor-de-fundo-branco);
+    text-align: center;
+    font-weight: 700;
+}
