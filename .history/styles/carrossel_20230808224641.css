@@ -1,0 +1,113 @@
+:root{
+    --branco:#FFFFFF;
+    --cor-de-fundo: #C4C4C4;
+    --cor-titulos:#002F52;
+    --cor-botoes:#EB9B00;
+    --fonte-geral: 'Poppins', sans-serif;
+    --tamanho-fonte-titulo:1.35rem;
+    --tamanho-fonte-subtitulo:1.15rem;
+    --tamanho-fonte-geral:1rem;
+    --peso-fonte-geral:400;
+    --peso-fonte-titulo:700;
+    --peso-fonte-sublinhado:200;
+    --preto:black;
+
+
+}
+
+.carrossel__lancamentos {
+    font-family: var(--fonte-geral);
+    color: var(--cor-titulos);
+    font-size: var(--tamanho-fonte-subtitulo);
+    background-color: var(--branco);
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem 0 ;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.swiper-pagination{
+    position:initial;
+    margin: 0.5rem;
+}
+
+.card{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1.0rem;
+    padding: 1rem;
+
+    }
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.descricao__titulo{
+    font-family: var(--fonte-geral);
+    font-size: var(--tamanho-fonte-subtitulo);
+    color: var(--cor-titulos);
+    font-weight: 700;   
+     font-style: normal;
+
+}
+
+.descricao__titulo__livro{
+    color: var(--cor--botoes);
+    font-size: 1.2rem;
+    font-family: var(--fonte-geral);
+    font-weight: 700;
+    margin: 0.5rem 0;
+    font-style: normal;
+
+}
+
+.descricao__texto{
+    font-family: var(--fonte-geral);
+    color: var(--preto);
+    font-size:var(--tamanho-fonte-geral);
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.card__botoes{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.card__botoes__itens{
+    display: flex;
+}
+
+.botoes__item{
+    padding: 0.8rem;
+}
+
+.botoes__ancora{
+    font-family: var(--fonte-geral);
+    font-weight: var(--peso-fonte-titulo);
+    text-decoration: none;
+    font-size: var(--tamanho-fonte-geral);
+    background: var(--cor-botoes);
+    color: var(--branco);
+    padding: 0.8rem 1.3rem;
+
+
+}

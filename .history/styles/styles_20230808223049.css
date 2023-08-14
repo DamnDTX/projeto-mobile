@@ -1,0 +1,32 @@
+@import url(../styles/header.css);
+/* Usamos o '@import" aqui pelo motivo de ser mais rádio o carregamento do arquivo, além de deixar o index.html com menos códigos*/
+@import url(./banner.css);
+@import url(./carrossel.css);
+
+:root{
+    --branco:#FFFFFF;
+    --cor-de-fundo: #C4C4C4;
+    --cor-titulos:#002F52;
+    --cor--botoes:#EB9B00;
+    --fonte-geral: 'Poppins', sans-serif;
+    --tamanho-fonte-titulo:2rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: var(--cor-de-fundo);
+    height: 100vh;
+}
+
+.cabecalho{
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.container__botao{
+    display: none;
+}
+

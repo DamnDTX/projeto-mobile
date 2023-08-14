@@ -1,11 +1,11 @@
 :root{
-    --cor-de-fundo-branco:#FFFFFF;
+    --branco:#FFFFFF;
     --cor-de-fundo: #C4C4C4;
-    --cor-titulos:#3c464e;
+    --cor-titulos:#002F52;
     --cor-botoes:#EB9B00;
     --fonte-geral: 'Poppins', sans-serif;
-    --tamanho-fonte-titulo:2rem;
-    --tamanho-fonte-subtitulo:1.3rem;
+    --tamanho-fonte-titulo:1.35rem;
+    --tamanho-fonte-subtitulo:1.15rem;
     --tamanho-fonte-geral:1rem;
     --peso-fonte-geral:400;
     --peso-fonte-titulo:700;
@@ -23,7 +23,7 @@
 /* inline-block pois assim permite ajustes de altura e largura, lembrando que com o display=block não conseguimos fazer tais ajustes */
 
 .cabecalho{
-    background-color: var(--cor-de-fundo-branco);
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -52,7 +52,7 @@
 
 .lista-menu__titulo{
     color: var(--cor-titulos);
-    font-size: var(--tamanho-fonte-geral);
+    font-size: var(--tamanho-fonte-);
     font-family: var(--fonte-geral);
     font-weight: var(--peso-fonte-titulo);
 }
@@ -68,7 +68,7 @@
 
 .lista-menu__titulo,
 .lista-menu__item{
-    background-color: var(--cor-de-fundo-branco);
+    background-color: var(--branco);
     padding: 1rem;
 }
 

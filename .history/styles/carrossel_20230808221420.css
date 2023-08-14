@@ -1,0 +1,63 @@
+:root{
+    --cor-de-fundo-branco:#FFFFFF;
+    --cor-de-fundo: #C4C4C4;
+    --cor-titulos:#002F52;
+    --cor--botoes:#EB9B00;
+    --fonte-geral: 'Poppins', sans-serif;
+    --tamanho-fonte-titulo:2rem;
+    --tamanho-fonte-subtitulo:1.35rem;
+
+}
+
+.carrossel__lancamentos {
+    font-family: var(--fonte-geral);
+    color: var(--cor-titulos);
+    font-size: var(--tamanho-fonte-subtitulo);
+    background-color: var(--cor-de-fundo-branco);
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem 0 ;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.swiper-pagination{
+    position:initial;
+    margin: 0.5rem;
+}
+
+.card{border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1.0rem;
+    padding: 0.8rem;
+
+    }
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__botoes{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.card__botoes__itens{
+    display: flex;
+}
+
+.botoes__item{
+    padding: 0.8rem;
+}
