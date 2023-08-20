@@ -6,9 +6,6 @@
 a{
     text-decoration:none;
     color: var(--branco);
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 :root{
     --branco:#FFFFFF;
@@ -49,8 +46,8 @@ body{
     margin: 1.5rem;
     text-align: center;
     font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+font-weight: 300;
+line-height: normal;
 }
 
 .topicos__botoes{
@@ -59,6 +56,5 @@ body{
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-bottom:0.8rem;
 }
 

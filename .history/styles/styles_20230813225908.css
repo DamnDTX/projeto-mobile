@@ -3,13 +3,6 @@
 @import url(./banner.css);
 @import url(./carrossel.css);
 
-a{
-    text-decoration:none;
-    color: var(--branco);
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
 :root{
     --branco:#FFFFFF;
     --cor-de-fundo: #C4C4C4;
@@ -45,20 +38,7 @@ body{
     flex-direction: column;
 }
 
-.topicos__titulo{
-    margin: 1.5rem;
-    text-align: center;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-}
-
 .topicos__botoes{
     display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom:0.8rem;
+    justify-content: space-around;
 }
-

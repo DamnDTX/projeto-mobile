@@ -59,6 +59,9 @@ body{
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-bottom:0.8rem;
 }
 
+.topicos__botoes__link{
+    margin-bottom:0.8rem;
+    margin-left: 0.6rem;
+}
