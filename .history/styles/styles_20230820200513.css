@@ -1,6 +1,6 @@
 @import url(../styles/header.css);
 /* Usamos o '@import" aqui pelo motivo de ser mais rádio o carregamento do arquivo, além de deixar o index.html com menos códigos*/
-@import url(../styles/banner.css);
+@import url(./banner.css);
 @import url(./carrossel.css);
 @import url(topicos.css);
 @import url(./novidades.css);

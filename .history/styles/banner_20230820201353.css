@@ -52,7 +52,7 @@ a{
     padding: 1em;
     background-color: transparent;
     color: #FFFFFF;
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -65,7 +65,6 @@ a{
      background: url(../img/Pesquisa.svg) no-repeat;
     position: 1em;
     padding: 1.5px;
-    background-position: 1em;
 }
 
 /* A lupa nós colocamos no placeholder, lembre-se disso quando se deparar com algo assim, minha unica duvida foi sobre o posicionamento dela*/

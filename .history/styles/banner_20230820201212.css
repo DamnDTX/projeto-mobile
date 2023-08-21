@@ -46,6 +46,7 @@ a{
 }
 
 
+
 .banner__pesquisa{
     border: 1px solid #FFFFFF;
     border-radius: 24px;
@@ -53,7 +54,7 @@ a{
     background-color: transparent;
     color: #FFFFFF;
     width: 100%;
-
+    margin: 0 1rem;
 }
 
 .banner__pesquisa::placeholder{
@@ -65,7 +66,6 @@ a{
      background: url(../img/Pesquisa.svg) no-repeat;
     position: 1em;
     padding: 1.5px;
-    background-position: 1em;
 }
 
 /* A lupa nós colocamos no placeholder, lembre-se disso quando se deparar com algo assim, minha unica duvida foi sobre o posicionamento dela*/

@@ -1,11 +1,7 @@
 @import url(../styles/header.css);
 /* Usamos o '@import" aqui pelo motivo de ser mais rádio o carregamento do arquivo, além de deixar o index.html com menos códigos*/
-@import url(../styles/banner.css);
+@import url(./banner.css);
 @import url(./carrossel.css);
-@import url(topicos.css);
-@import url(./novidades.css);
-@import url(./rodape.css);
-
 
 a{
     text-decoration:none;
@@ -41,3 +37,41 @@ body{
     display: none;
 }
 
+.topicos{
+    background-color: #002F52;
+    color: var(--branco);
+    font-family: var(--fonte-geral);
+    display: flex;
+    flex-direction: column;
+}
+
+.topicos__titulo{
+    margin: 1.5rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.topicos__botoes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom:0.8rem;
+}
+
+/*COMEÇO DA GUIA DE CONTATOS MOBILE*/
+
+.contatos{
+    background-color:var(--branco);
+    text-align: center;
+    color: var(--cor-titulos);
+}
+
+.contatos__tiitulo{
+    font-family: var(--fonte-geral);
+    font-weight:700;
+    font-size: 1.125rem;
+}

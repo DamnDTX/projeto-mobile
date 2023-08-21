@@ -1,0 +1,29 @@
+:root{
+    --branco:#FFFFFF;
+    --cor-de-fundo: #C4C4C4;
+    --cor-titulos:#002F52;
+    --cor--botoes:#EB9B00;
+    --fonte-geral: 'Poppins', sans-serif;
+    --tamanho-fonte-titulo:2rem;
+}
+
+.contatos{
+    background-color:var(--branco);
+    padding: 1rem;
+}
+
+.contatos__titulo{
+    font-weight:700;
+    font-size: 1.125rem;
+    color: var(--cor-titulos);
+    padding: 1rem;
+}
+
+.contatos__texto{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--fonte-geral);
+    font-style: normal;
+    line-height: normal;
+    margin: 1em 0;
+}

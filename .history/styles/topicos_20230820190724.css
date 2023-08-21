@@ -1,0 +1,38 @@
+
+:root{
+    --branco:#FFFFFF;
+    --cor-de-fundo: #C4C4C4;
+    --cor-titulos:#002F52;
+    --cor--botoes:#EB9B00;
+    --fonte-geral: 'Poppins', sans-serif;
+    --tamanho-fonte-titulo:2rem;
+}
+
+
+
+
+.topicos{
+    background-color: #002F52;
+    color: var(--branco);
+    font-family: var(--fonte-geral);
+    display: flex;
+    flex-direction: column;
+}
+
+.topicos__titulo{
+    margin: 1.5rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.topicos__botoes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom:0.8rem;
+   
+}

@@ -1,0 +1,17 @@
+.contatos{
+    background-color:var(--branco);
+    text-align: center;
+    color: var(--cor-titulos);
+    padding: 2.5em 2em;
+}
+
+.contatos__titulo{
+    font-family: var(--fonte-geral);
+    font-weight:700;
+    font-size: 1.125rem;
+}
+
+.contatos__texto{
+    font-weight:400;
+    font-size: 1.125rem;
+}
