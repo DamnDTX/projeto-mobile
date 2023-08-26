@@ -24,8 +24,6 @@ a{
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@700&display=swap');
-
 
 body{
     background-color: var(--cor-de-fundo);

@@ -156,8 +156,8 @@ a{
     width: auto;
 }
 
-.cabecalho__botão{
-   
+#opcoes__menu__cabecalho{
+    display: none;
 
 }
 

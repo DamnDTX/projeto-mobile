@@ -37,21 +37,10 @@ a{
     position: relative;
 }
 
-.cabecalho__opcoes{
-    display: flex;
-}
-
-.link__opcoes{
-    color: black;
-    font-family: var(--fonte-geral);
-    font-weight: 400;
-    padding: 0 1rem;
-}
-
 /*APÓS ESTA LINHA ACIMA OS ELEMENTOS FICARAM Á ESQUERDA, MAS ISTO ACONTECEU POIS COLOCAMOS-O EM OUTRO ARQUIVO CSS, ESTE ESQUEMA É MUITO BOM QUANDO PRECISAMOS FAZER UM MENU DESSE JEITO SEM USAR JAVASCRIPT, CLARO, O GRANDE SEGREDO FOI O 'justify-content'*/
 
 .container__imagem{
-    padding: 0.8rem;
+    padding: 1rem;
     background-position: center;
     background-repeat: no-repeat;
     top: 100%;
@@ -77,8 +66,6 @@ a{
 
 .container__botao:checked~.lista-menu {
     display: block;
-    width: auto;
-    margin-top: 350px;
 }
 
 .lista-menu__titulo{
@@ -103,62 +90,8 @@ a{
     padding: 1rem;
 }
 
-.container__titulo{
-    display: none;
-}
-
-.cabecalho__opcoes{
-    display: none;
-}
-
-
 @media screen and (min-width:1024px) {
 
-
-    .container__titulo, .container__titulo--negrito{
-    font-family: 'Josefin Sans', sans-serif;
-    font: 1.8rem; 
+    
 }
     
-
-
-.container__titulo{
-    font-weight: 400;
-    display: block;
-}
-
-
-.container__titulo--negrito{
-    font-weight: 700; }
-
-    .cabecalho__opcoes{
-        display: flex;
-    }
-    
-    .link__opcoes{
-        color: black;
-        font-family: var(--fonte-geral);
-        font-weight: 400;
-        padding: 0 1rem;
-    }
-
-    .coracao{
-        display: none;
-    }
-    
-    .cabecalho__menu-hamburguer{
-        display: none;
-    }
-
-.cabecalho__botão:checked~.lista-menu{
-    display: block;
-    margin-top: 43px;
-    width: auto;
-}
-
-.cabecalho__botão{
-   
-
-}
-
-}

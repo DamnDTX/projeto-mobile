@@ -152,12 +152,12 @@ a{
 
 .cabecalho__botão:checked~.lista-menu{
     display: block;
-    margin-top: 43px;
-    width: auto;
+   
+   
 }
 
 .cabecalho__botão{
-   
+    display: none;
 
 }
 

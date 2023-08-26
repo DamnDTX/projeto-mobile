@@ -150,15 +150,15 @@ a{
         display: none;
     }
 
-.cabecalho__botão:checked~.lista-menu{
+.cabecalho__botao:checked~.lista-menu{
     display: block;
     margin-top: 43px;
     width: auto;
 }
 
-.cabecalho__botão{
-   
-
+.cabecalho__botao{
+    display: none;
+    position: absolute;
 }
 
 }

@@ -77,8 +77,6 @@ a{
 
 .container__botao:checked~.lista-menu {
     display: block;
-    width: auto;
-    margin-top: 350px;
 }
 
 .lista-menu__titulo{
@@ -113,13 +111,11 @@ a{
 
 
 @media screen and (min-width:1024px) {
-
-
-    .container__titulo, .container__titulo--negrito{
+.container__titulo, .container__titulo--negrito{
     font-family: 'Josefin Sans', sans-serif;
-    font: 1.8rem; 
+    font: 1.8rem;
 }
-    
+
 
 
 .container__titulo{
@@ -150,15 +146,9 @@ a{
         display: none;
     }
 
-.cabecalho__botão:checked~.lista-menu{
+.cabecalho__botao:checked~.lista-menu{
     display: block;
-    margin-top: 43px;
-    width: auto;
+    margin-top: 45px;
 }
-
-.cabecalho__botão{
-   
-
 }
-
-}
+    

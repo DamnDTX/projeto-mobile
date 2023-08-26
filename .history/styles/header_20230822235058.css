@@ -157,8 +157,8 @@ a{
 }
 
 .cabecalho__botão{
-   
-
+    display: none;
+    position: absolute;
 }
 
 }
